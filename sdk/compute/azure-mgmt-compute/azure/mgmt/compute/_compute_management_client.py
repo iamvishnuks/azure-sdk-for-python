@@ -54,6 +54,7 @@ class ComputeManagementClient(MultiApiClientMixin, _SDKClient):
             'disk_encryption_sets': '2019-11-01',
             'disks': '2019-11-01',
             'resource_skus': '2019-04-01',
+            'images': '2018-10-01',
             'snapshots': '2019-11-01',
         }},
         _PROFILE_TAG + " latest"
